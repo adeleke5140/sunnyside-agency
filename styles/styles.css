@@ -30,6 +30,13 @@
     --ff2:'Fraunces', serif;
 }
 
+body{
+    font-size: var(--font-size);
+}
+
+.header {
+    background-image: url(../images/mobile/image-header.jpg);
+}
 
 
 
