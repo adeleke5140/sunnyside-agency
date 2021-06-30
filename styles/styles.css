@@ -36,6 +36,15 @@ body{
 
 .header {
     background-image: url(../images/mobile/image-header.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    padding: 1.5rem;
+}
+
+.header > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
