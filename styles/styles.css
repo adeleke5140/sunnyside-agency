@@ -51,9 +51,15 @@ body{
     text-align: center;
     color: var(--white);
     font-family: var(--ff2);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 1.2rem;
     /* width: 30ch; */
 }
 
+.line_break{
+    display: block;
+}
 
 
