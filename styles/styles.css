@@ -37,7 +37,6 @@ body{
 .header {
     background-image: url(../images/mobile/image-header.jpg);
     background-repeat: no-repeat;
-    padding: 1.5rem;
 }
 
 .header > div{
