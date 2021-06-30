@@ -54,11 +54,17 @@ body{
     text-align: center;
     color: var(--white);
     font-family: var(--ff2);
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
+
     /* margin-top: 1.2rem; */
     /* width: 30ch; */
+}
+
+.arrow_icon{
+    position: relative;
+    top: 95px;
 }
 
 .line_break{
