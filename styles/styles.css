@@ -37,12 +37,22 @@ body{
 .header {
     background-image: url(../images/mobile/image-header.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .header > div{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.header__title{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--ff2);
+    font-size: 2rem;
+    /* width: 30ch; */
 }
 
 
