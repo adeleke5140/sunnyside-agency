@@ -96,11 +96,12 @@ img{
     font-family: var(--ff1);
     width: 90%;
     z-index: 2;
-    
+    transition: display 300ms ease;  
 }
 
-.nav__list .nav-open{
+ul.nav__list.nav-open{
     display: flex;
+    
 }
 
 .nav__item{
@@ -120,7 +121,7 @@ img{
     text-transform: uppercase;
     color: var(--veryDarkDesaturatedBlue);
     font-family: var(--ff2);
-    padding: .9rem;
+    padding: 1rem;
     background: var(--yellow);
     border-radius: 40px;
     margin-bottom: 0;
