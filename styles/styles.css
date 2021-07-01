@@ -84,11 +84,10 @@ img{
 }
 
 .nav__list{
-    /* display: none; */
+    display: none;
     position: absolute;
     top: 80px;
     left: 20px;
-    display: flex;
     flex-direction: column;
     list-style: none;
     position: absolute;
@@ -98,6 +97,10 @@ img{
     width: 90%;
     z-index: 2;
     
+}
+
+.nav__list.nav-open{
+    display: flex;
 }
 
 .nav__item{
