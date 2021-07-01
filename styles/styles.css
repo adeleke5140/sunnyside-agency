@@ -99,7 +99,7 @@ img{
     
 }
 
-.nav__list.nav-open{
+.nav__list .nav-open{
     display: flex;
 }
 
