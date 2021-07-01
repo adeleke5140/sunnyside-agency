@@ -108,19 +108,21 @@ ul.nav__list.nav-open{
     margin-bottom: 2.7rem;
     text-align: center;
     font-weight: var(--fw-bold);
-    color: var(--grayishBlue);
+    
+    
 }
 
 .nav__item > a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;   
+    color: var(--grayishBlue);
 }
 
-.nav__list > .nav__item:last-child{
+.nav__list > .nav__item:last-child > a{
     text-transform: uppercase;
     color: var(--veryDarkDesaturatedBlue);
     font-family: var(--ff2);
-    padding: 1rem;
+    padding: 1rem 1.9rem;
     background: var(--yellow);
     border-radius: 40px;
     margin-bottom: 0;
