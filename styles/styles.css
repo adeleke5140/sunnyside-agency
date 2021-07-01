@@ -90,7 +90,6 @@ img{
     left: 20px;
     flex-direction: column;
     list-style: none;
-    position: absolute;
     background: var(--white);
     padding: 2rem;
     font-family: var(--ff1);
