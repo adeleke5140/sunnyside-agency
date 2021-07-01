@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 :root{
     /* Primary Colors */
     --soft-red: hsl(7, 99%, 70%);
@@ -48,9 +46,6 @@ img{
     background-position: 50% 60%;
 }
 
-/* .header::after{
-    content: url(../images/mobile/image-transform.jpg);
-} */
 .header > div{
     display: flex;
     align-items: center;
@@ -65,9 +60,6 @@ img{
     font-size: 2.4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-
-    /* margin-top: 1.2rem; */
-    /* width: 30ch; */
 }
 
 .arrow_icon{
@@ -100,16 +92,13 @@ img{
 
 ul.nav__list.nav-open{
     display: flex;
-    
 }
 
 .nav__item{
     font-size: 1.5rem;
     margin-bottom: 2.7rem;
     text-align: center;
-    font-weight: var(--fw-bold);
-    
-    
+    font-weight: var(--fw-bold);   
 }
 
 .nav__item > a {
@@ -126,7 +115,6 @@ ul.nav__list.nav-open{
     background: var(--yellow);
     border-radius: 40px;
     margin-bottom: 0;
-
 }
 
 button{
