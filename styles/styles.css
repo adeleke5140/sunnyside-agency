@@ -278,3 +278,14 @@ section[class*="graphic_card"]{
     grid-template-rows: 1fr 1fr;
     margin-top: 1.3rem;
 }
+
+
+.footer{
+    background: hsl(168deg 34% 60%);
+    padding: 2rem 1.5rem;
+}
+
+.footer__logo{
+    height: 40px;
+    margin: 0 auto;
+}
