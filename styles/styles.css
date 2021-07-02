@@ -271,3 +271,9 @@ section[class*="graphic_card"]{
     font-family: var(--ff1);
     color: var(--grayishBlue);
 }
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
