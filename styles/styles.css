@@ -222,3 +222,11 @@ section[class*="graphic_card"]{
     padding-top: 2rem;
     text-align: center;
 }
+
+.testimonials__title{
+    font-family: var(--ff2);
+    font-size: .8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--veryDarkDesaturatedBlue);
+}
