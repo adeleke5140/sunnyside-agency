@@ -136,10 +136,10 @@ ul.nav__list.nav-open{
 
 .card__summary{
     color: var(--darkGrayishBlue);
-    font-size: .9rem;
+    font-size: .8rem;
     /* font-weight: var(--fw-normal); */
     font-family: var(--ff1);
-    padding: 0 1.2rem;
+    padding: 0 2rem;
     line-height: 1.6;
 }
 
@@ -150,7 +150,7 @@ ul.nav__list.nav-open{
     padding-bottom: 1.5rem;
     font-family: var(--ff2);
     font-size: .8rem;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--veryDarkDesaturatedBlue);
@@ -229,4 +229,45 @@ section[class*="graphic_card"]{
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--veryDarkDesaturatedBlue);
+}
+
+.testimonials__card{
+    text-align: center;
+}
+
+.testimonial__cards__item{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonial__cards_image{
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.comment{
+    font-size: 1rem;
+    font-family: var(--ff1);
+    line-height: 1.6;
+    color: var(--veryDarkGrayishBlue);
+    padding: 0 1rem 1.5rem 1.3rem;
+}
+
+.comment:nth-child(2){
+    font-size: .9rem;
+    padding: 0 1rem 1.5rem 1.3rem;
+}
+.comment__author {
+    font-family: var(--ff2);
+    font-weight: var(--fw-bold);
+    font-size: 1rem;
+}
+
+.comment__author_title{
+    margin-top: .6rem;
+    font-size: .8rem;
+    font-family: var(--ff1);
+    color: var(--grayishBlue);
 }
