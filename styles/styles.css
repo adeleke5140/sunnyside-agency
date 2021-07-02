@@ -217,3 +217,8 @@ section[class*="graphic_card"]{
     font-family: var(--ff1);
     line-height: 1.6;
 }
+
+.testimonials{
+    padding-top: 2rem;
+    text-align: center;
+}
