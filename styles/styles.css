@@ -117,7 +117,8 @@ ul.nav__list.nav-open{
     margin-bottom: 0;
 }
 
-button{
+.header button{
     background: none;
     border: none;
 }
+
