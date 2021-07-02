@@ -127,5 +127,56 @@ ul.nav__list.nav-open{
 }
 
 .card__title{
+    font-family: var(--ff2);
+    font-size: 1.7rem;
+    margin-top: 2.6rem;
+    margin-bottom: 1rem;
+    color: var(--veryDarkDesaturatedBlue);
+}
 
+.card__summary{
+    color: var(--darkGrayishBlue);
+    font-size: .9rem;
+    /* font-weight: var(--fw-normal); */
+    font-family: var(--ff1);
+    padding: 0 1.2rem;
+    line-height: 1.6;
+}
+
+.card__link{
+    display: block;
+    /* margin: 1.3rem 0 1.3rem 0; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: var(--ff2);
+    font-size: .8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--veryDarkDesaturatedBlue);
+    position: relative;
+}
+
+.card:first-child .card__link::after{
+    position: absolute;
+    content: '';
+    width: 158px;
+    height: 12px;
+    background: var(--yellow);
+    border-radius: 20px;
+    opacity: 0.2;
+    right:110px;
+    top:42px;
+}
+
+.card:nth-child(2) .card__link::after{
+    position: absolute;
+    content: '';
+    width: 158px;
+    height: 12px;
+    background: var(--soft-red);
+    border-radius: 20px;
+    opacity: 0.2;
+    right:110px;
+    top: 42px;
 }
