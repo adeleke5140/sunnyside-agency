@@ -169,25 +169,27 @@ ul.nav__list.nav-open {
 .card:first-child .card__link::after {
     position: absolute;
     content: '';
-    width: 158px;
+    width: 147px;
     height: 12px;
     background: var(--yellow);
     border-radius: 20px;
     opacity: 0.2;
-    right: 110px;
-    top: 42px;
+    right: 114px;
+    top: 32px;
+    z-index: -1;
 }
 
 .card:nth-child(2) .card__link::after {
     position: absolute;
     content: '';
-    width: 158px;
+    width: 147px;
     height: 12px;
     background: var(--soft-red);
     border-radius: 20px;
     opacity: 0.3;
-    right: 110px;
-    top: 42px;
+    right: 114px;
+    top: 32px;
+    z-index: -1;
 }
 
 section[class*="graphic_card"] {
