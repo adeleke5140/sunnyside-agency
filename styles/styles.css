@@ -197,8 +197,9 @@ section[class*="graphic_card"] {
     text-align: center;
     padding-top: 15rem;
     background-repeat: no-repeat;
-    background-position: 40% center;
+    background-position: 40% 2%;
     background-size: cover;
+    padding-bottom: 5em;
 }
 
 .graphic_card-1 {
@@ -211,8 +212,11 @@ section[class*="graphic_card"] {
     color: var(--darkBlue-photoText);
 }
 
+.graphic_card_text {
+    padding-top: 10rem;
+}
+
 .graphic_card_title {
-    padding-top: 5rem;
     margin-bottom: 1.3rem;
     font-family: var(--ff2);
     font-size: 1.5rem;
@@ -220,13 +224,17 @@ section[class*="graphic_card"] {
 }
 
 .graphic_card_summary {
-    font-size: .8rem;
-    padding-bottom: 2.5rem;
+    font-size: .9rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: var(--fw-bold);
     font-family: var(--ff1);
     line-height: 1.6;
+}
+
+.graphic_card-2 .graphic_card_summary {
+    width: 45ch;
+    margin: 0 auto;
 }
 
 .testimonials {
