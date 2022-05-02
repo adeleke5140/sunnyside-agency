@@ -335,3 +335,19 @@ section[class*="graphic_card"] {
 .footer__services__link>a:active {
     border: 1px solid var(--darkSaturatedCyan-text)
 }
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__social li {
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.attribution {
+    text-align: center;
+}
