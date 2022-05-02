@@ -301,7 +301,7 @@ section[class*="graphic_card"] {
 
 
 .footer {
-    background: hsl(168deg 34% 60%);
+    background: hsl(168deg 34% 70%);
     padding: 2rem 1.5rem;
 }
 
@@ -312,7 +312,7 @@ section[class*="graphic_card"] {
 }
 
 .footer__services {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -341,6 +341,7 @@ section[class*="graphic_card"] {
     justify-content: center;
     text-align: center;
     list-style: none;
+    margin-top: 8em;
 }
 
 .footer__social li {
